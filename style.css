@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #fff;
+}
+
+/* навигация */
+.navbar {
+    background-color: #343a40 !important;
+    padding: 15px 0;
+    border-bottom: 1px solid #292d31;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: #fff;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    background-color: rgba(34, 33, 33, 0.5);
+    border-radius: 0.25rem;
+}
+
+.navbar-toggler {
+    border: none;
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+/* main */
+.jumbotron {
+    background-image: url(https://cdn2.techhq.com/wp-content/uploads/2020/07/shutterstock_776789038-scaled.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.display-4 {
+    text-transform: uppercase;
+    color: #343a40;
+}
+
+.lead {
+    color: #161718;
+    text-align: left;
+    font-weight: 600;
+}
+
+.jumbotron h1 {
+    font-size: 5.5rem;
+    font-weight: bold;
+    margin-bottom: 60px;
+    margin-top: -50px;
+}
+
+.jumbotron p {
+    font-size: 1.2rem;
+}
+
+.jumbotron .btn {
+    background-color: #007bff;
+    color: #fff;
+    margin-top: 30px;
+    padding: 20px 30px;
+    font-size: 2.6rem;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: all 0.5s ease;
+}
+
+
+/* о компании */
+#about {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+#about .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    background-color: #fff;
+}
+
+#about .card:hover {
+    transform: translateY(-5px);
+}
+
+#about .card h3 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+#about .card p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+#about .card:hover h3 {
+    color: #0056b3;
+}
+
+/* услуги */
+#services {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+#services h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+#services .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+    background-color: #fff;
+}
+
+#services .card:hover {
+    transform: translateY(-5px);
+}
+
+#services .card h3 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+#services .card p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+#services .card:hover h3 {
+    color: #0056b3;
+}
+/* подвал */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.footer h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.footer .list-unstyled li {
+    margin-bottom: 10px;
+}
+
+.footer .list-unstyled li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer .list-unstyled li a:hover {
+    text-decoration: underline;
+}
